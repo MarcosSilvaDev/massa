@@ -11,6 +11,35 @@ body {
     color: #444444;
 }
 
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.logo img {
+    width: 211px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-in button {
+    border: none;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+    width: 180px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
 section {
     padding: 3rem 0 4rem 0;
 }
@@ -32,6 +61,11 @@ h1.title {
 
 .container {
     max-width: 1000px;
+    margin: auto;
+}
+
+.hero {
+    width: 60%;
     margin: auto;
 }
 
